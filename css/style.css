@@ -1,3 +1,23 @@
+.block {
+  margin: 0 8px 10px 15px;
+}
+
+.block__item {
+  border-radius: 80px;
+}
+
+.block__bem {
+  padding: 20px;
+}
+
+.red {
+  background-color: green;
+}
+
+.d {
+  line-height: 5;
+}
+
 h1 {
   font-size: 30px;
 }
