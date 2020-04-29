@@ -1,19 +1,11 @@
-header {
-  background-color: #fff;
+.block__item {
+  font-size: 50px;
 }
 
-body {
-  font-size: 20px;
+.block {
+  background-color: #140c7a;
 }
 
-body div {
-  font-size: 10px;
-}
-
-body {
-  font-size: 20px;
-}
-
-body div {
-  font-size: 10px;
+h1 {
+  font-size: 30px;
 }
