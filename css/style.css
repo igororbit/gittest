@@ -1,23 +1,21 @@
-.block {
-  margin: 0 8px 10px 15px;
-}
-
-.block__item {
-  border-radius: 80px;
-}
-
-.block__bem {
-  padding: 20px;
-}
-
-.red {
-  background-color: green;
+h3 {
+  font-size: 30px;
+  border-radius: 50px;
 }
 
 .d {
-  line-height: 5;
+  margin-top: 70px;
 }
 
-h1 {
+.red {
+  color: red;
+}
+
+h4 {
   font-size: 30px;
+  bottom: 30px;
+}
+
+.block__bem {
+  margin-left: 30px;
 }
