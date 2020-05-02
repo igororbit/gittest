@@ -1,16 +1,13 @@
-@import "_header";
-@import "_flex-end";
-@import "_space-around";
-
-.block {
+.block2 {
     display: flex;
+    justify-content: flex-end;
     width: 90%;
     margin: auto;
     border: 2px solid #d10c0c;
     margin-bottom: 20px;
 }
 
-.element {
+.element2 {
     height: 150px;
     background-color: #443e3e;
     color: white;
