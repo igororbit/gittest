@@ -133,6 +133,106 @@
   color: white;
 }
 
+.block9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+.element9 {
+  background-color: gray;
+  color: white;
+}
+
+.block10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+.element10 {
+  background-color: gray;
+  color: white;
+}
+
+.block11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+.element11 {
+  background-color: gray;
+  color: white;
+}
+
+.block12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+.element12 {
+  background-color: gray;
+  color: white;
+}
+
+.block12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+.element12 {
+  background-color: gray;
+  color: white;
+}
+
 .block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,4 +247,9 @@
   height: 150px;
   background-color: gray;
   color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
 }

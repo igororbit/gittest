@@ -6,6 +6,11 @@
 @import "align-items/_flex-start";
 @import "align-items/_center";
 @import "_center-center";
+@import "flex-direction/_row";
+@import "flex-direction/_column";
+@import "flex-direction/_row-reverse";
+@import "flex-direction/_column-reverse";
+@import "flex-basis_element/_20%";
 
 .block {
     display: flex;
@@ -19,4 +24,9 @@
     height: 150px;
     background-color: gray;
     color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
 }
