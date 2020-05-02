@@ -1,14 +1,15 @@
-.block2 {
+.block8 {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
     width: 90%;
     margin: auto;
     border: 2px solid #d10c0c;
     margin-bottom: 20px;
+    height: 150px;
 }
 
-.element2 {
-    height: 150px;
-    background-color: #443e3e;
+.element8 {
+    background-color: gray;
     color: white;
 }

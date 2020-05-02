@@ -1,6 +1,11 @@
 @import "_header";
-@import "_flex-end";
-@import "_space-around";
+@import "justify-content/_flex-end";
+@import "justify-content/_space-around";
+@import "justify-content/_space-beetween";
+@import "justify-content/_center";
+@import "align-items/_flex-start";
+@import "align-items/_center";
+@import "_center-center";
 
 .block {
     display: flex;
@@ -12,6 +17,6 @@
 
 .element {
     height: 150px;
-    background-color: #443e3e;
+    background-color: gray;
     color: white;
 }

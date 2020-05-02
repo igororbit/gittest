@@ -13,7 +13,7 @@
 
 .element2 {
   height: 150px;
-  background-color: #443e3e;
+  background-color: gray;
   color: white;
 }
 
@@ -31,7 +31,105 @@
 
 .element3 {
   height: 150px;
-  background-color: #443e3e;
+  background-color: gray;
+  color: white;
+}
+
+.block4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+}
+
+.element4 {
+  height: 150px;
+  background-color: gray;
+  color: white;
+}
+
+.block5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+}
+
+.element5 {
+  height: 150px;
+  background-color: gray;
+  color: white;
+}
+
+.block6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+.element6 {
+  background-color: gray;
+  color: white;
+}
+
+.block7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+.element7 {
+  background-color: gray;
+  color: white;
+}
+
+.block8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+.element8 {
+  background-color: gray;
   color: white;
 }
 
@@ -47,6 +145,6 @@
 
 .element {
   height: 150px;
-  background-color: #443e3e;
+  background-color: gray;
   color: white;
 }
