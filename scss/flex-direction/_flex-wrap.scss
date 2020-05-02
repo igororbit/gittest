@@ -1,15 +1,17 @@
-.block11 {
+.block18 {
     display: flex;
-    flex-direction: row-reverse;
     width: 90%;
     margin: auto;
     border: 2px solid #d10c0c;
     margin-bottom: 20px;
     height: 150px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.element11 {
+.element18 {
     background-color: gray;
     color: white;
+    width: 430px;
     border: 2px solid green;
 }

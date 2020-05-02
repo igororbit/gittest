@@ -90,6 +90,7 @@
 .element6 {
   background-color: gray;
   color: white;
+  border: 2px solid green;
 }
 
 .block7 {
@@ -109,6 +110,7 @@
 .element7 {
   background-color: gray;
   color: white;
+  border: 2px solid green;
 }
 
 .block8 {
@@ -131,6 +133,7 @@
 .element8 {
   background-color: gray;
   color: white;
+  border: 2px solid green;
 }
 
 .block9 {
@@ -151,6 +154,7 @@
 .element9 {
   background-color: gray;
   color: white;
+  border: 2px solid green;
 }
 
 .block10 {
@@ -171,6 +175,7 @@
 .element10 {
   background-color: gray;
   color: white;
+  border: 2px solid green;
 }
 
 .block11 {
@@ -191,6 +196,7 @@
 .element11 {
   background-color: gray;
   color: white;
+  border: 2px solid green;
 }
 
 .block12 {
@@ -211,6 +217,31 @@
 .element12 {
   background-color: gray;
   color: white;
+  border: 2px solid green;
+}
+
+.block18 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+  height: 150px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.element18 {
+  background-color: gray;
+  color: white;
+  width: 430px;
+  border: 2px solid green;
 }
 
 .block13 {
