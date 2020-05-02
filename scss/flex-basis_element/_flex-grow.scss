@@ -1,0 +1,19 @@
+.block14 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border: 2px solid #d10c0c;
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+.element14 {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: 2px solid green;
+    flex-basis: 10%;
+    &-3 {
+        flex-grow: 1;
+    }
+}

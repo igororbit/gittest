@@ -1,0 +1,20 @@
+.block17 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border: 2px solid #d10c0c;
+    margin-bottom: 20px;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.element17 {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: 2px solid green;
+    &-3 {
+        align-self: flex-end;
+    }
+}

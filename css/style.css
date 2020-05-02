@@ -213,14 +213,10 @@
   color: white;
 }
 
-.block12 {
+.block13 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
   width: 90%;
   margin: auto;
   border: 2px solid #d10c0c;
@@ -228,9 +224,128 @@
   height: 150px;
 }
 
-.element12 {
+.element13 {
   background-color: gray;
   color: white;
+  padding: 10px;
+  border: 2px solid green;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+}
+
+.element13-3 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.block14 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+.element14 {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  border: 2px solid green;
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+}
+
+.element14-3 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.block15 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+.element15 {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  border: 2px solid green;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+.element15-3 {
+  -ms-flex-negative: 10;
+      flex-shrink: 10;
+}
+
+.block16 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+  height: 150px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.element16 {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  border: 2px solid green;
+}
+
+.element16-3 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.block17 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #d10c0c;
+  margin-bottom: 20px;
+  height: 150px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.element17 {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  border: 2px solid green;
+}
+
+.element17-3 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .block {

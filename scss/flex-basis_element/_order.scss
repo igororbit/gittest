@@ -1,6 +1,5 @@
-.block12 {
+.block13 {
     display: flex;
-    flex-direction: column-reverse;
     width: 90%;
     margin: auto;
     border: 2px solid #d10c0c;
@@ -8,7 +7,13 @@
     height: 150px;
 }
 
-.element12 {
+.element13 {
     background-color: gray;
     color: white;
+    padding: 10px;
+    border: 2px solid green;
+    flex-basis: 20%;
+    &-3 {
+        order: 1;
+    }
 }

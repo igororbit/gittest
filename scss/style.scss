@@ -10,7 +10,11 @@
 @import "flex-direction/_column";
 @import "flex-direction/_row-reverse";
 @import "flex-direction/_column-reverse";
-@import "flex-basis_element/_20%";
+@import "flex-basis_element/_order";
+@import "flex-basis_element/_flex-grow";
+@import "flex-basis_element/_flex-shrink";
+@import "align-self/_flex-start";
+@import "align-self/_flex-end";
 
 .block {
     display: flex;

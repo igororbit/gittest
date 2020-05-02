@@ -1,0 +1,19 @@
+.block15 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border: 2px solid #d10c0c;
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+.element15 {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: 2px solid green;
+    flex-basis: 30%;
+    &-3 {
+        flex-shrink: 10;
+    }
+}
